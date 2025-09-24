@@ -46,6 +46,14 @@ const Portfolio = () => {
       image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=250&fit=crop"
     },
     {
+      title: "E-Commerce Platform",
+      description: "Full-stack e-commerce solution with React, Node.js, and MongoDB. Features include user authentication, payment processing, and admin dashboard.",
+      tech: ["React", "Node.js", "MongoDB", "Stripe"],
+      github: "https://github.com",
+      live: "https://demo.com",
+      image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=250&fit=crop"
+    },
+    {
       title: "Task Management App",
       description: "Collaborative task management tool with real-time updates, drag-and-drop functionality, and team collaboration features.",
       tech: ["Next.js", "TypeScript", "PostgreSQL", "Socket.io"],
@@ -300,15 +308,15 @@ const Portfolio = () => {
               <div className="space-y-6">
                 <div className="flex items-center">
                   <Mail className="mr-4 text-blue-600" size={20} />
-                  <span className="text-gray-600">your.email@example.com</span>
+                  <span className="text-gray-600">chautrancmt26@gmail.com</span>
                 </div>
                 <div className="flex items-center">
                   <Github className="mr-4 text-blue-600" size={20} />
-                  <span className="text-gray-600">github.com/yourusername</span>
+                  <span className="text-gray-600">https://github.com/CTC3PO</span>
                 </div>
                 <div className="flex items-center">
                   <Linkedin className="mr-4 text-blue-600" size={20} />
-                  <span className="text-gray-600">linkedin.com/in/yourprofile</span>
+                  <span className="text-gray-600">https://www.linkedin.com/in/chautrancmt26/</span>
                 </div>
               </div>
             </div>
@@ -356,7 +364,7 @@ const Portfolio = () => {
       <footer className="py-8 px-6 border-t border-gray-200 bg-white/50">
         <div className="max-w-6xl mx-auto text-center">
           <p className="text-gray-500">
-            © 2024 Chau Tran. Built with React and Tailwind CSS
+            © 2025 Chau Tran. Built with React and Tailwind CSS
           </p>
         </div>
       </footer>
