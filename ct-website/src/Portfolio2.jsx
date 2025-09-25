@@ -71,7 +71,7 @@ const Portfolio = () => {
       tech: ["React", "Three.js", "Node.js", "MongoDB"],
       github: "https://github.com/CTC3PO/planning-housing-tool",
       live: "https://cif-ud-project.vercel.app/",
-      image: "https://i.postimg.cc/tstgTbHN/housing-icon-3.png",
+      image: "./images/housing-project.png",
       featured: true
     },
     {
@@ -84,32 +84,33 @@ const Portfolio = () => {
       featured: true
     },
     {
+      title: "Food Nutri-score Prediction",
+      description: "An ML pipeline predicting nutri-score from a dataset of Open Food Facts with 1M rows",
+      tech: ["pandas", "scikit-learn", "Jupyter notebook"],
+      github: "https://github.com/CTC3PO/ml-nutri-score-prediction",
+      image: "./images/projects/food-project.png",
+      featured: true
+    },
+    {
       title: "CocktailCraft - Recipe Discovery App",
       description: "A responsive web application integrating APIs to display 11,000+ cocktail recipes",
       tech: ["React", "API Integration", "CSS", "JavaScript"],
       github: "https://github.com/CTC3PO/react-projects-cocktail-database",
       live: "https://react-cocktail-db-app.netlify.app/",
       image: "https://images.reactbricks.com/src_set/342e8e70-9e9d-43e5-9271-3dfba38a7c06-1600/dashboard.webp",
-      featured: true
-    },
-    {
-      title: "Weather Dashboard",
-      description: "Interactive weather dashboard with location-based forecasts, historical data visualization, and weather alerts.",
-      tech: ["React", "D3.js", "Weather API", "Tailwind"],
-      github: "https://github.com",
-      live: "https://demo.com",
-      image: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=400&h=250&fit=crop",
       featured: false
     },
     {
-      title: "Task Management App",
-      description: "Collaborative task management application with real-time updates and team collaboration features.",
-      tech: ["React", "Socket.io", "Node.js", "MongoDB"],
-      github: "https://github.com",
-      live: "https://demo.com",
-      image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=400&h=250&fit=crop",
+      title: "Art Classifier",
+      description: "",
+      tech: ["PyTorch","Gradio", "Hugging Face deployment"],
+      github: "https://github.com/CTC3PO/ml-art-classifier",
+      live: "coming soon",
+      image: "./images/projects/project-c.png" ,
       featured: false
     }
+,
+    
   ];
 
   const skills = [
@@ -212,9 +213,15 @@ const Portfolio = () => {
       <section id="home" className="min-h-screen flex items-center justify-center px-6">
         <div className="text-center max-w-4xl mx-auto">
           <div className="mb-8">
-            <div className="w-32 h-32 mx-auto mb-8 rounded-full bg-gradient-to-r from-blue-500 to-teal-500 flex items-center justify-center text-4xl font-bold text-white shadow-lg">
-              CT
+          <div className="w-32 h-32 mx-auto mb-8 rounded-full bg-gradient-to-r from-blue-500 to-teal-500 p-1 shadow-lg">
+            <div className="w-full h-full rounded-full overflow-hidden border-2 border-white/20">
+              <img 
+                src="/images/profile.jpg"
+                alt="Chau Tran"
+                className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-300"
+              />
             </div>
+          </div>
           </div>
           <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-gray-800 via-blue-700 to-teal-700 bg-clip-text text-transparent">
             Chau Tran
@@ -225,8 +232,9 @@ const Portfolio = () => {
           <p className={`text-lg mb-12 max-w-2xl mx-auto leading-relaxed ${
             isDark ? 'text-gray-300' : 'text-gray-500'
           }`}>
-            Passionate about creating beautiful, functional web applications that solve real-world problems. 
-            I specialize in modern JavaScript frameworks and love turning ideas into reality.
+            Full-stack developer specializing in modern web technologies,
+             while actively exploring machine learning and big data to build
+             more intelligent solutions.
           </p>
           <div className="flex justify-center space-x-6 mb-12">
             <a 
@@ -302,20 +310,17 @@ const Portfolio = () => {
               </h3>
               <div className="space-y-6">
                 <p className={`leading-relaxed ${isDark ? 'text-gray-300' : 'text-gray-600'}`}>
-                  I'm a passionate full-stack developer and a data enthusiast. My journey started with curiosity about how 
-                  websites work, and has evolved into a deep love for crafting elegant solutions 
-                  to complex problems.
+                  I'm a full-stack developer with a unique background in urban planning at the NYC
+                   Department of City Planning, now pursuing a Master's in Information Technology
+                    at the University of Pennsylvania. My technical focus spans modern web
+                     development and machine learning, where I enjoy solving complex problems
+                      through code and data.
                 </p>
                 <p className={`leading-relaxed ${isDark ? 'text-gray-300' : 'text-gray-600'}`}>
-                  My past experience as urban planner/designer at the New York City Department of City Planning.
-                  I'm currently in the Master's of Information Technology program at the University of Pennsylvania. 
-                  I'm looking for a full-time software engineer role.
+                  When not coding, I explore new tech trends, practice urban sketching,
+                   and enjoy outdoor adventures with my Australian cattle dog.
                 </p>
-                <p className={`leading-relaxed ${isDark ? 'text-gray-300' : 'text-gray-600'}`}>
-                  When I'm not coding, you can find me exploring new technologies in web development and machine learning models.
-                  I enjoy urban sketching, writing and hiking.
-                  I'm also a proud mama of an Australian cattle dog 🐶.
-                </p>
+
               </div>
             </div>
             
