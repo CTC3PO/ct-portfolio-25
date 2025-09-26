@@ -67,7 +67,7 @@ const Portfolio = () => {
   const projects = [
     {
       title: "Planning Housing Explorer",
-      description: "A 3D web app to explore and communicate NYC Department of City Planning's City of Yes initiative. Built with three.js",
+      description: "A 3D web app to explore and communicate NYC Department of City Planning's City of Yes initiative. Built with Three.js.",
       tech: ["React", "Three.js", "Node.js", "MongoDB"],
       github: "https://github.com/CTC3PO/planning-housing-tool",
       live: "https://cif-ud-project.vercel.app/",
@@ -76,7 +76,7 @@ const Portfolio = () => {
     },
     {
       title: "Project Management Site",
-      description: "A collaboration app that allows multiple users to log in and sign up, track project progress, comment on projects, delete projects, and sort projects by categories.",
+      description: "A collaboration app that allows multiple users to log in, sign up and track and sort projects by categories.",
       tech: ["React", "Node.js", "MongoDB", "Express"],
       github: "https://github.com/CTC3PO/react-project-management-site",
       live: "https://project-management-site-woof.netlify.app",
@@ -85,7 +85,7 @@ const Portfolio = () => {
     },
     {
       title: "Food Nutri-score Prediction",
-      description: "An ML pipeline predicting nutri-score from a dataset of Open Food Facts with 1M rows",
+      description: "A machine learning project that combines Open Food Facts data (1M rows) and World bank data to predict and recommend nutri-score system adoption globally.",
       tech: ["pandas", "scikit-learn", "Jupyter notebook"],
       github: "https://github.com/CTC3PO/ml-nutri-score-prediction",
       image: "./images/projects/food-project.png",
@@ -101,10 +101,10 @@ const Portfolio = () => {
       featured: false
     },
     {
-      title: "Art Classifier",
-      description: "",
+      title: "Art Classifier (coming soon)",
+      description: "An art classifier model trained on Wikiart dataset to predict art works movement, deployment on Hugging Face Space.",
       tech: ["PyTorch","Gradio", "Hugging Face deployment"],
-      github: "https://github.com/CTC3PO/ml-art-classifier",
+      github: "coming soon",
       live: "coming soon",
       image: "./images/projects/project-c.png" ,
       featured: false
