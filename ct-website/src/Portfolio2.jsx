@@ -75,20 +75,30 @@ const Portfolio = () => {
       featured: true
     },
     {
-      title: "Project Management Site",
-      description: "A collaboration app that allows multiple users to log in, sign up and track and sort projects by categories.",
-      tech: ["React", "Node.js", "MongoDB", "Express"],
-      github: "https://github.com/CTC3PO/react-project-management-site",
-      live: "https://project-management-site-woof.netlify.app",
-      image: "https://images.reactbricks.com/src_set/9bc648c4-2ad9-4ba4-b779-deeb89116f1d-1600/dashboard.webp",
-      featured: true
-    },
-    {
       title: "Food Nutri-score Prediction",
       description: "A machine learning project that combines Open Food Facts data (1M rows) and World bank data to predict and recommend nutri-score system adoption globally.",
       tech: ["pandas", "scikit-learn", "Jupyter notebook"],
       github: "https://github.com/CTC3PO/ml-nutri-score-prediction",
       image: "./images/projects/food-project.png",
+      featured: true
+    },
+
+    {
+      title: "Pacman Q-Learning Agent",
+      description: "A reinforcement learning agent that learns to play Pacman through Q-learning and feature extraction. The agent can navigate grids, avoid ghosts and collect dots efficiently.",
+      tech: ["Python","AI", "Reinforcement Learning"],
+      github: "(private)",
+      image: "./images/projects/ai-pacman-2.gif" ,
+      featured: true
+    },
+
+    {
+      title: "Project Management Site",
+      description: "A collaboration app that allows multiple users to log in, sign up and track and sort projects by categories.",
+      tech: ["React", "Node.js", "MongoDB", "Express"],
+      github: "https://github.com/CTC3PO/react-project-management-site",
+      live: "https://project-management-site-woof.netlify.app",
+      image: "./images/projects/drawing-13-edit.png",
       featured: true
     },
     {
@@ -98,15 +108,6 @@ const Portfolio = () => {
       github: "https://github.com/CTC3PO/react-projects-cocktail-database",
       live: "https://react-cocktail-db-app.netlify.app/",
       image: "https://images.reactbricks.com/src_set/342e8e70-9e9d-43e5-9271-3dfba38a7c06-1600/dashboard.webp",
-      featured: false
-    },
-    {
-      title: "Art Classifier (coming soon)",
-      description: "An art classifier model trained on Wikiart dataset to predict art works movement, deployment on Hugging Face Space.",
-      tech: ["PyTorch","Gradio", "Hugging Face deployment"],
-      github: "coming soon",
-      live: "coming soon",
-      image: "./images/projects/project-c.png" ,
       featured: false
     }
 ,
